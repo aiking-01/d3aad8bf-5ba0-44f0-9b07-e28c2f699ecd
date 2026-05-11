@@ -1,0 +1,1 @@
+print(sum([i for i in range(int(input('整数を入力:')))]))
