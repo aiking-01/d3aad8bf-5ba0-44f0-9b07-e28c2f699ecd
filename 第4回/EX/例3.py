@@ -1,1 +1,2 @@
-print(len([i for i in range(1,51) if i%2*i%3*i%5]))
+import itertools as a ,math
+print(sum([-int(50/-math.prod(j))for i in range(4)for j in a.combinations([-2,-3,-5],i)]))

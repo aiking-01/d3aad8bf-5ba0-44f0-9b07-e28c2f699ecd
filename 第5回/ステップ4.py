@@ -1,6 +1,6 @@
 n_a = ord('a')
 n_z = ord('z')
-f = ''
+txt = ''
 length = 5
 import random
 for _ in range(length):
