@@ -1,0 +1,1 @@
+print(*dict_1.keys()) # type: ignore

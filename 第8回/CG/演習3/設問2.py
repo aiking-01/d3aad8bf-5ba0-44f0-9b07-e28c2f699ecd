@@ -1,0 +1,1 @@
+s=sum(dict_1.values());print(f'{s}\n{s/len(dict_1)}') # type: ignore

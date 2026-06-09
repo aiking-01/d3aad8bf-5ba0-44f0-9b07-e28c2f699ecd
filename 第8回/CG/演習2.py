@@ -1,0 +1,1 @@
+print(*kansai.items(),sep='\n') # type: ignore
