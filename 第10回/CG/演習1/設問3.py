@@ -1,0 +1,1 @@
+for i in range(1,6):print(f'{i}回目: {'はあずたれり'[judge(*target_pos())::2]}') # type: ignore
