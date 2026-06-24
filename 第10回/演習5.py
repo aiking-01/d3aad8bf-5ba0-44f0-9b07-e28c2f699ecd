@@ -48,3 +48,22 @@ def omikuji():
     return l, result
 
 print(omikuji())
+
+
+
+#---4---
+import matplotlib.pyplot as plt
+import japanize_matplotlib
+count = {'大吉': 0, '吉': 0, '凶': 0}
+
+for _ in range(100):
+    _, result = omikuji()
+    count[result] += 1
+
+print(count)
+
+plt.bar(count.keys(), count.values())
+plt.title("おみくじ100回の結果")
+plt.xlabel("結果")
+plt.ylabel("回数")
+plt.show()
