@@ -19,4 +19,7 @@ def omikuji():
 #---4---
 import matplotlib.pyplot as p,japanize_matplotlib
 p.bar(k:=['大吉','吉','凶'],[[omikuji()[1]for _ in range(100)].count(i)for i in k])
-for i in[f'title("おみくじ100回の{(y:='結果")')}',f'x{(x:='label("')}{y}',f'y{x}回数")','show()']:eval('p.'+i)
+p.title("おみくじ100回の結果")
+p.xlabel("結果")
+p.ylabel("回数")
+p.show()
