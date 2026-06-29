@@ -1,0 +1,1 @@
+def dens(d,p):return d[p][1]/d[p][2]
