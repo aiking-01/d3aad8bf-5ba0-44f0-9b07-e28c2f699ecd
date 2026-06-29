@@ -3,3 +3,4 @@ def dens(data, pref_name):
     jinkou = pref[1]
     menseki = pref[2]
     return jinkou / menseki
+print(dens(pref_dict, '大阪府')) # type: ignore
