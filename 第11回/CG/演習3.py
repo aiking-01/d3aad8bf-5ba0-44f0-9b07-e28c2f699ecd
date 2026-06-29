@@ -1,0 +1,1 @@
+print(len([i for i in range(101)if is_prime(i)])) # type: ignore
